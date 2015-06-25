@@ -1,5 +1,5 @@
 # RecSysMF
-Matrix Factorization for Recommender System with Parallel Stochastic Gradient Descent (with locks)
+Matrix Factorization for Recommender System with Parallel Stochastic Gradient Descent (with locks).
 
 If you use RecSysMF please cite the following paper:
 -  F. Petroni and L. Querzoni:
