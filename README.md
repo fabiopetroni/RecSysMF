@@ -24,3 +24,9 @@ Options:
  - -learning_rate double        ->      specifies the learning rate for the sgd algorithm. Default 0.01.
  - -rank integer        ->      specifies the number of latent features for the low rank approximation. Default 50.
 
+# Example
+
+download the MovieLens 100k dataset from http://grouplens.org/datasets/movielens/ and put the folder ml-100k in the root of the project.
+
+java -jar dist/RecSysMF.jar ml-100k/u1.base -test ml-100k/u1.test -output ml-100k/output_loss.dat -iterations 100 -lambda 0.01 -learning_rate 0.05 -rank 100
+
